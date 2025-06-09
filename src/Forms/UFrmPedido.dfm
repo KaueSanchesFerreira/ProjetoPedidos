@@ -11,10 +11,12 @@ object FrmPedido: TFrmPedido
   Font.Name = 'Fira Code'
   Font.Style = []
   KeyPreview = True
+  OldCreateOrder = True
   Position = poMainFormCenter
   OnClose = FormClose
   OnKeyDown = FormKeyDown
   OnShow = FormShow
+  PixelsPerInch = 96
   TextHeight = 16
   object pnPrincipal: TPanel
     Left = 0
@@ -111,7 +113,7 @@ object FrmPedido: TFrmPedido
       end
       object lblValorTotal: TLabel
         Left = 5
-        Top = 172
+        Top = 171
         Width = 120
         Height = 20
         Alignment = taRightJustify
@@ -125,8 +127,9 @@ object FrmPedido: TFrmPedido
         Font.Style = [fsBold]
         ParentFont = False
         Transparent = True
+        ExplicitTop = 172
       end
-      object btnConfirmar: TSpeedButton
+      object btnConfirmar: TButton
         Left = 20
         Top = 215
         Width = 105
@@ -134,10 +137,10 @@ object FrmPedido: TFrmPedido
         Caption = 'Confirmar'
         ImageIndex = 4
         Images = ImageList1
-        Flat = True
+        TabOrder = 5
         OnClick = btnConfirmarClick
       end
-      object btnPesquisarProduto: TSpeedButton
+      object btnPesquisarProduto: TButton
         Left = 220
         Top = 24
         Width = 103
@@ -145,9 +148,9 @@ object FrmPedido: TFrmPedido
         Caption = 'Pesquisar'
         ImageIndex = 0
         Images = ImageList1
-        Flat = True
         ParentShowHint = False
         ShowHint = True
+        TabOrder = 6
         OnClick = btnPesquisarProdutoClick
       end
       object edtProdutoCodigo: TEdit
@@ -300,7 +303,7 @@ object FrmPedido: TFrmPedido
         Alignment = taRightJustify
         Caption = 'Data Emiss'#227'o:'
       end
-      object btnPesquisar: TSpeedButton
+      object btnPesquisar: TButton
         Left = 12
         Top = 91
         Width = 101
@@ -309,12 +312,12 @@ object FrmPedido: TFrmPedido
         Caption = 'Pesquisar'
         ImageIndex = 0
         Images = ImageList1
-        Flat = True
         ParentShowHint = False
         ShowHint = True
+        TabOrder = 2
         OnClick = btnPesquisarClick
       end
-      object btnGravar: TSpeedButton
+      object btnGravar: TButton
         Left = 128
         Top = 91
         Width = 97
@@ -323,12 +326,12 @@ object FrmPedido: TFrmPedido
         Caption = 'Gravar'
         ImageIndex = 1
         Images = ImageList1
-        Flat = True
         ParentShowHint = False
         ShowHint = True
+        TabOrder = 3
         OnClick = btnGravarClick
       end
-      object btnCancelar: TSpeedButton
+      object btnCancelar: TButton
         Left = 251
         Top = 91
         Width = 98
@@ -337,12 +340,12 @@ object FrmPedido: TFrmPedido
         Caption = 'Cancelar'
         ImageIndex = 2
         Images = ImageList1
-        Flat = True
         ParentShowHint = False
         ShowHint = True
+        TabOrder = 4
         OnClick = btnCancelarClick
       end
-      object btnPDF: TSpeedButton
+      object btnPDF: TButton
         Left = 251
         Top = 21
         Width = 98
@@ -351,9 +354,9 @@ object FrmPedido: TFrmPedido
         Caption = 'Gerar PDF'
         ImageIndex = 6
         Images = ImageList1
-        Flat = True
         ParentShowHint = False
         ShowHint = True
+        TabOrder = 5
         OnClick = btnPDFClick
       end
       object edtPedidoNumero: TEdit
@@ -419,7 +422,7 @@ object FrmPedido: TFrmPedido
         Alignment = taRightJustify
         Caption = 'UF:'
       end
-      object btnPesquisarCliente: TSpeedButton
+      object btnPesquisarCliente: TButton
         Left = 170
         Top = 18
         Width = 103
@@ -427,9 +430,9 @@ object FrmPedido: TFrmPedido
         Caption = 'Pesquisar'
         ImageIndex = 0
         Images = ImageList1
-        Flat = True
         ParentShowHint = False
         ShowHint = True
+        TabOrder = 4
         OnClick = btnPesquisarClienteClick
       end
       object edtClienteCodigo: TEdit
@@ -480,7 +483,7 @@ object FrmPedido: TFrmPedido
     Left = 892
     Top = 16
     Bitmap = {
-      494C010107000800040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010107000900040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000002000000001002000000000000020
       0000000000000000000000000000000000000000000000000000000000000000
       0000D3D3D300707070002B2B2B000B0B0B000B0B0B002B2B2B0071717100D4D4

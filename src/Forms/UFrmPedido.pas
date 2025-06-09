@@ -18,7 +18,6 @@ uses
   Vcl.Buttons,
   System.ImageList,
   Vcl.ImgList,
-  Vcl.WinXPickers,
   Vcl.ComCtrls,
   Data.DB,
   Vcl.Grids,
@@ -74,15 +73,15 @@ type
     edtPedidoNumero: TEdit;
     lblPedidoDataEmissao: TLabel;
     stPedidoDataEmissao: TStaticText;
-    btnPesquisar: TSpeedButton;
-    btnGravar: TSpeedButton;
-    btnCancelar: TSpeedButton;
+    btnPesquisar: TButton;
+    btnGravar: TButton;
+    btnCancelar: TButton;
     dbgProdutos: TDBGrid;
     pmGrid: TPopupMenu;
     btnAlterar: TMenuItem;
     btnApagar: TMenuItem;
     lblPedidoTotal: TLabel;
-    btnConfirmar: TSpeedButton;
+    btnConfirmar: TButton;
     stPedidoTotal: TStaticText;
     mtProdutos: TFDMemTable;
     dsProdutos: TDataSource;
@@ -93,10 +92,10 @@ type
     mtProdutosvalor_unitario: TFloatField;
     mtProdutosvalor_total: TFloatField;
     mtProdutosdescricao_produto: TStringField;
-    btnPesquisarProduto: TSpeedButton;
-    btnPesquisarCliente: TSpeedButton;
+    btnPesquisarProduto: TButton;
+    btnPesquisarCliente: TButton;
     FDGUIxWaitCursor1: TFDGUIxWaitCursor;
-    btnPDF: TSpeedButton;
+    btnPDF: TButton;
     procedure dbgProdutosTitleClick(Column: TColumn);
     procedure dbgProdutosDrawColumnCell(Sender: TObject; const Rect: TRect; DataCol: Integer; Column: TColumn; State: TGridDrawState);
     procedure edtValorUnitarioKeyPress(Sender: TObject; var Key: Char);
@@ -667,6 +666,7 @@ procedure TFrmPedido.PesquisarPedido(Numero: Integer);
 var
   Pedido: TPedido;
   Cliente: TCliente;
+  Prod: TProdutoPedido;
 begin
   Pedido := TPedidoDAO.Create.PesquisarPedido(Numero);
   if Assigned(Pedido) then
@@ -694,7 +694,7 @@ begin
       mtProdutos.Close;
       mtProdutos.Open;
       mtProdutos.EmptyDataSet;
-      for var Prod in Pedido.Produtos do
+      for Prod in Pedido.Produtos do
       begin
         mtProdutos.Append;
         mtProdutosid.Value := Prod.Id;

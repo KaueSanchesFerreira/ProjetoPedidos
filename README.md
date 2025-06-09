@@ -1,6 +1,6 @@
 # Projeto Teste Técnico Delphi - Sistema de Pedidos
 
-Este é um projeto de avaliação desenvolvido em Delphi (Athens 12).  
+Este é um projeto de avaliação desenvolvido em Delphi (Athens 12), Testado com versões anteriores: Delphi 11 Alexandria e Delphi 10.1 Berlin. 
 O sistema realiza o gerenciamento de **Pedidos**, **Clientes** e **Produtos**, com controle de itens do pedido, pesquisa dinâmica e exportação de pedido.
 
 ## 🖥️ Funcionalidades

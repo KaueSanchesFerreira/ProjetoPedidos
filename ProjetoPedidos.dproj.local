@@ -19,10 +19,11 @@
     <Transaction>2025/06/09 00:02:07.000.356,C:\Projetos\ProjetoPedidos\src\DAO\UPedidoDAO.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
     <Transaction>2025/06/09 00:19:11.000.329,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
     <Transaction>2025/06/09 00:22:29.000.305,C:\Projetos\ProjetoPedidos\src\DAO\UConexaoDB.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
-    <Transaction>2025/06/09 15:58:25.358,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
-    <Transaction>2025/06/09 15:58:41.958,C:\Projetos\ProjetoPedidos\src\Forms\UFrmPesquisaGenerica.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
-    <Transaction>2025/06/09 15:58:41.958,C:\Projetos\ProjetoPedidos\src\Forms\UFrmPesquisaGenerica.dfm=C:\Projetos\ProjetoPedidos\Unit1.dfm</Transaction>
-  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <Transaction>2025/06/09 15:58:25.000.358,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 15:58:41.000.958,C:\Projetos\ProjetoPedidos\src\Forms\UFrmPesquisaGenerica.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 15:58:41.000.958,C:\Projetos\ProjetoPedidos\src\Forms\UFrmPesquisaGenerica.dfm=C:\Projetos\ProjetoPedidos\Unit1.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="src"/>
     <File Path="src\DAO"/>
     <File Path="src\DAO\UClienteDAO.pas"/>
