@@ -27,6 +27,7 @@ O sistema realiza o gerenciamento de **Pedidos**, **Clientes** e **Produtos**, c
 
 ## 📄 Estrutura de Pastas
 
+```plaintext
 ProjetoPedidos/
 │
 ├── config/
@@ -42,20 +43,20 @@ ProjetoPedidos/
 │   └── libmysql.dll                # DLL do MySQL usada pela aplicação
 │
 ├── src/
-│   ├── Forms
-│   │    ├── UFrmPedido.pas              # Tela principal
-│   │    ├── UFrmPedido.dfm
-│   │    ├── UFrmPesquisaGenerica.pas    # Tela de pesquisa (lookup)
-│   │    ├── UFrmPesquisaGenerica.dfm
-│   ├── DAO
-│   │    ├──  UClienteDAO.pas             # DAO de clientes
-│   │    ├──  UProdutoDAO.pas             # DAO de produtos
-│   │    ├──  UPedidoDAO.pas              # DAO de pedidos
-│   │    ├──  UConexaoDB.pas              # Classe de conexão
+│   ├── Forms/
+│   │   ├── UFrmPedido.pas              # Tela principal
+│   │   ├── UFrmPedido.dfm
+│   │   ├── UFrmPesquisaGenerica.pas    # Tela de pesquisa (lookup)
+│   │   ├── UFrmPesquisaGenerica.dfm
+│   ├── DAO/
+│   │   ├── UClienteDAO.pas             # DAO de clientes
+│   │   ├── UProdutoDAO.pas             # DAO de produtos
+│   │   ├── UPedidoDAO.pas              # DAO de pedidos
+│   │   ├── UConexaoDB.pas              # Classe de conexão
 │   ├── Models/
-│   │    ├── TPedido.pas            # Modelos das entidades
-│   │    ├── TProduto.pas
-│   │    ├── TCliente.pas
+│   │   ├── TPedido.pas                 # Modelos das entidades
+│   │   ├── TProduto.pas
+│   │   ├── TCliente.pas
 │
 ├── Win32/
 │   └── (gerado pelo Delphi)
@@ -65,7 +66,7 @@ ProjetoPedidos/
 ├── ProjetoPedidos.res
 ├── TelaPesquisa.png
 ├── TelaPrincipal.png
-└── README.md                       # Raiz pode ter um atalho do README
+└── README.md                           # Raiz pode ter um atalho do README
 
 ## ⚙️ Configuração
 
