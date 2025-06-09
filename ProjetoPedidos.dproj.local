@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/06/08 21:55:24.000.807,=C:\Users\kaue.ferreira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/06/08 21:56:25.000.895,C:\Projetos\ProjetoPedidos\src\Forms\UFrmPedido.pas=C:\Users\kaue.ferreira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/06/08 21:56:25.000.895,C:\Projetos\ProjetoPedidos\src\Forms\UFrmPedido.dfm=C:\Users\kaue.ferreira\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/06/08 21:57:53.000.970,C:\Projetos\ProjetoPedidos\ProjetoPedidos.dproj=C:\Users\kaue.ferreira\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/06/08 23:54:06.000.796,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/08 23:54:23.000.370,C:\Projetos\ProjetoPedidos\src\Model\UPedidoModel.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/08 23:57:02.000.580,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/08 23:57:09.000.289,C:\Projetos\ProjetoPedidos\src\Model\UClienteModel.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/08 23:57:19.000.049,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/08 23:57:25.000.916,C:\Projetos\ProjetoPedidos\src\Model\UProdutoModel.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 00:00:34.000.906,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 00:00:49.000.551,C:\Projetos\ProjetoPedidos\src\DAO\UClienteDAO.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 00:01:02.000.223,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 00:01:13.000.342,C:\Projetos\ProjetoPedidos\src\DAO\UProdutoDAO.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 00:01:55.000.447,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 00:02:07.000.356,C:\Projetos\ProjetoPedidos\src\DAO\UPedidoDAO.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 00:19:11.000.329,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 00:22:29.000.305,C:\Projetos\ProjetoPedidos\src\DAO\UConexaoDB.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 15:58:25.358,=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 15:58:41.958,C:\Projetos\ProjetoPedidos\src\Forms\UFrmPesquisaGenerica.pas=C:\Projetos\ProjetoPedidos\Unit1.pas</Transaction>
+    <Transaction>2025/06/09 15:58:41.958,C:\Projetos\ProjetoPedidos\src\Forms\UFrmPesquisaGenerica.dfm=C:\Projetos\ProjetoPedidos\Unit1.dfm</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="src"/>
+    <File Path="src\DAO"/>
+    <File Path="src\DAO\UClienteDAO.pas"/>
+    <File Path="src\DAO\UConexaoDB.pas"/>
+    <File Path="src\DAO\UPedidoDAO.pas"/>
+    <File Path="src\DAO\UProdutoDAO.pas"/>
+    <File Path="src\Forms"/>
+    <File Path="src\Forms\UFrmPedido.pas"/>
+    <File Path="src\Forms\UFrmPedido.dfm"/>
+    <File Path="src\Forms\UFrmPesquisaGenerica.pas"/>
+    <File Path="src\Forms\UFrmPesquisaGenerica.dfm"/>
+    <File Path="src\Model"/>
+    <File Path="src\Model\UClienteModel.pas"/>
+    <File Path="src\Model\UPedidoModel.pas"/>
+    <File Path="src\Model\UProdutoModel.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
